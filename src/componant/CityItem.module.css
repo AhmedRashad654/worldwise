@@ -1,0 +1,31 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(94, 93, 93);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  border-left: 2px solid greenyellow;
+  cursor: pointer;
+}
+.one span:first-child {
+  margin-right: 10px;
+}
+.close {
+  cursor: pointer;
+  transition: 0.3s all;
+  padding: 2px 8px 4px 8px;
+  border-radius: 50%;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+}
+.close:hover {
+  background-color: yellowgreen;
+}
+.active-item {
+  border: 1px solid greenyellow;
+}

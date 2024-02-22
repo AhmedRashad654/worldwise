@@ -1,0 +1,16 @@
+{
+  "cities": [
+    {
+      "id": "cfaa",
+      "cityName": "Sohag",
+      "emoji": "EG",
+      "country": "Egypt",
+      "date": "2/17/2024",
+      "note": "",
+      "position": {
+        "lat": "26.373363415966253",
+        "lng": "31.717529296875004"
+      }
+    }
+  ]
+}

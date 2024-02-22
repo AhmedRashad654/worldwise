@@ -1,0 +1,33 @@
+.mapContainer {
+  flex: 50%;
+  position: relative;
+  height: 100vh;
+}
+.map {
+  height: 100vh;
+}
+
+:global .leaflet-control-attribution a {
+  text-decoration: none;
+  display: none;
+}
+:global .leaflet-control-attribution .leaflet-control {
+  display: none;
+}
+:global .leaflet-touch .leaflet-control-attribution {
+  display: none;
+}
+.my {
+  position: absolute;
+  left: 50%;
+  bottom: 4%;
+  width: 200px;
+  transform: translateX(-50%);
+  background-color: rgb(35, 192, 93);
+  z-index: 1000;
+  outline: none;
+  border: none;
+  padding: 10px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}

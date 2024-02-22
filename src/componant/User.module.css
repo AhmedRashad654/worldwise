@@ -1,0 +1,34 @@
+.user {
+  width: fit-content;
+  border-radius: 5px;
+  background-color: #2d3439;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  z-index: 1000;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  color: white;
+}
+.user img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.user button {
+  padding: 4px 8px;
+  color: white;
+  border-radius: 5px;
+  background-color: #4a5156;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+@media (max-width: 800px) {
+  .user {
+    flex-direction: column;
+  }
+}

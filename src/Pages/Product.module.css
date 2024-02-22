@@ -1,0 +1,75 @@
+.product {
+  width: 100%;
+  height: 100vh;
+  background-color: #2d3439;
+}
+.context {
+  width: 65%;
+  margin: auto;
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-between;
+  gap: 40px;
+  height: 60%;
+}
+
+.context .img {
+  flex: 47%;
+}
+.context .img img {
+  width: 100%;
+  height: 100%;
+}
+.context .text {
+  flex: 46%;
+}
+.context .text h2 {
+  color: #ececec;
+
+  margin: 20px 0;
+  font-size: 30px;
+}
+.context .text p {
+  font-size: 17px;
+  margin-bottom: 20px;
+  line-height: 1.7;
+  color: #ececec;
+}
+@media (max-width: 800px) {
+  .context {
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+  }
+  .context .text h2 {
+    font-size: 17px;
+    margin-top: 0;
+  }
+  .context .text p {
+    font-size: 10px;
+    margin-bottom: 12px;
+    line-height: 1.4;
+    color: #ececec;
+  }
+}
+
+@media (max-width: 1000px) {
+  .context {
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+  }
+  .context .text h2 {
+    font-size: 17px;
+    margin-top: 0;
+  }
+  .context .text p {
+    font-size: 10px;
+    margin-bottom: 12px;
+    line-height: 1.4;
+    color: #ececec;
+  }
+  .context .img {
+    width: 60%;
+  }
+}
